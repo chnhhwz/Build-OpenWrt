@@ -2,4 +2,4 @@
 
 - root  @  192.168.100.10
 - ArgoneTheme | OpenClash | SSR-Plus+ | AccessControl | Ali_DDNS | MultiSD_Lite | WOL | FrpS/C | UPnP | Vlmcsd 
-  ❤️  [Lean](https://github.com/coolsnowwolf/lede) |  [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)  |  [honwen](https://github.com/honwen/luci-app-aliddns) |  [ximiTech ](https://github.com/ximiTech)  |  [jerrykuku](https://github.com/jerrykuku)
+- ❤️  [Lean](https://github.com/coolsnowwolf/lede) |  [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)  |  [honwen](https://github.com/honwen/luci-app-aliddns) |  [ximiTech ](https://github.com/ximiTech)  |  [jerrykuku](https://github.com/jerrykuku)
