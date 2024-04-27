@@ -11,7 +11,7 @@
 #
 
 # 修改默认IP 
-sed -i 's/192.168.1.1/192.168.100.10/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.100.100/g' package/base-files/files/bin/config_generate
 
 # 修改版本信息
 sed -i "s/OpenWrt /Z-turn $(TZ=UTC-8 date "+%Y") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
