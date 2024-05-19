@@ -5,7 +5,7 @@
 #
 ### 配置.config:
 - Debian 11 或 Ubuntu LTS
-- 安装编译依赖
+- 编译依赖
 
    ```bash
    sudo apt update -y
@@ -22,7 +22,7 @@
 - 下载源代码，更新 feeds 并选择配置
 
    ```bash
-   # 克隆源码
+   # 源码
    git clone https://github.com/coolsnowwolf/lede openwrt
    cd openwrt
    
@@ -41,7 +41,7 @@
    mkdir -p package/feeds
    git clone https://github.com/honwen/luci-app-aliddns.git package/feeds/luci-app-aliddns
 
-   # 下载安装 feedsd 的软件包
+   # Feedsd Instal
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    
@@ -49,7 +49,7 @@
    rm -rf feeds/packages/net/msd_lite
    git clone https://github.com/ximiTech/msd_lite.git feeds/packages/net/msd_lite
    
-   # ArgonTheme
+   # Argon-Theme
    rm -rf feeds/luci/themes/luci-theme-argon
    git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
    rm -rf feeds/luci/applications/luci-app-argon-config
@@ -58,7 +58,7 @@
    make menuconfig
    ```
 
-- 复制并上传.config
+- ~/openwrt/.config
 
 #
 ### 感谢 ❤️  [Lean](https://github.com/coolsnowwolf/lede) |  [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)  |  [honwen](https://github.com/honwen/luci-app-aliddns) |  [ximiTech ](https://github.com/ximiTech)  |  [jerrykuku](https://github.com/jerrykuku)
