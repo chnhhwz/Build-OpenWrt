@@ -22,6 +22,7 @@
 - 下载源代码，更新 feeds 并选择配置
 
    ```bash
+   # 克隆源码
    git clone https://github.com/coolsnowwolf/lede openwrt
    cd openwrt
    
@@ -39,7 +40,8 @@
    cd ~/openwrt
    mkdir -p package/feeds
    git clone https://github.com/honwen/luci-app-aliddns.git package/feeds/luci-app-aliddns
-   
+
+   # 下载安装 feeds 源中的软件包
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    
