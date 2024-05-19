@@ -6,7 +6,7 @@
 #
 ### 在本地机器上配置.config:
 - 安装依赖
- ```bash
+  ```bash
    sudo apt update -y
    sudo apt full-upgrade -y
    sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
@@ -18,7 +18,7 @@
    uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
    ```
 - 下载源代码，更新 feeds 并选择配置
-   ```bash
+ ```bash
    git clone https://github.com/coolsnowwolf/lede
    cd lede
    ./scripts/feeds update -a
