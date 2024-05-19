@@ -41,7 +41,7 @@
    mkdir -p package/feeds
    git clone https://github.com/honwen/luci-app-aliddns.git package/feeds/luci-app-aliddns
 
-   # 下载安装 feeds 源中的软件包
+   # 下载安装 feedsd 的软件包
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    
