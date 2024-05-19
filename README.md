@@ -1,5 +1,4 @@
-<h1 align="center">Actions-OpenWrt<br />
-</h1>
+# Actions-OpenWrt
 
 - root  @  192.168.100.100
 - ArgonTheme | OpenClash | SSRP+ | AccessControl | AliDNS | MsdLite | WOL | FrpS/C | UPnP | Vlmcsd | Qos | Eqos
