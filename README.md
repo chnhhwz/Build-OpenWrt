@@ -24,35 +24,35 @@
    ```bash
    git clone https://github.com/coolsnowwolf/lede openwrt
    cd openwrt
-   #
+   
    # SSR Plus+
    sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-   #
+   
    # OpenClash
    echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-   #
+   
    # luci-app-msd_lite
    cd package/lean
    git clone https://github.com/ximiTech/luci-app-msd_lite.git
-   #
+   
    # luci-app-aliddns
    cd ~/openwrt
    mkdir -p package/feeds
    git clone https://github.com/honwen/luci-app-aliddns.git package/feeds/luci-app-aliddns
-   #
+   
    ./scripts/feeds update -a
    ./scripts/feeds install -a
-   #
+   
    # msd_lite
    rm -rf feeds/packages/net/msd_lite
    git clone https://github.com/ximiTech/msd_lite.git feeds/packages/net/msd_lite
-   #
+   
    # ArgonTheme
    rm -rf feeds/luci/themes/luci-theme-argon
    git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
    rm -rf feeds/luci/applications/luci-app-argon-config
    git clone https://github.com/jerrykuku/luci-app-argon-config.git feeds/luci/applications/luci-app-argon-config
-   #
+   
    make menuconfig
    ```
 
