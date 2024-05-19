@@ -3,7 +3,8 @@
 - root  @  192.168.100.100
 - ArgonTheme | OpenClash | SSRP+ | AccessControl | AliDNS | MsdLite | WOL | FrpS/C | UPnP | Vlmcsd | Qos | Eqos
 #
-### 在本地机器上配置.config:
+### 配置.config:
+- Debian 11 或 Ubuntu LTS
 - 安装编译依赖
 
    ```bash
