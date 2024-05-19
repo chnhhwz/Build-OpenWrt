@@ -29,3 +29,4 @@
    make menuconfig
    ```
 
+3. 复制并上传.config
