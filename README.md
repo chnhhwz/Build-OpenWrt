@@ -17,3 +17,11 @@
    python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion swig texinfo \
    uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
    ```
+- 下载源代码，更新 feeds 并选择配置
+   ```bash
+   git clone https://github.com/coolsnowwolf/lede
+   cd lede
+   ./scripts/feeds update -a
+   ./scripts/feeds install -a
+   make menuconfig
+   ```
