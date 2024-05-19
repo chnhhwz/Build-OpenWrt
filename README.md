@@ -6,8 +6,8 @@
 #
 ### 在本地机器上配置.config:
 - 安装依赖
-  ```shell 
-sudo apt update -y
+  ```shell
+  sudo apt update -y
 sudo apt full-upgrade -y
 sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
 bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \
