@@ -2,7 +2,6 @@
 
 - root  @  192.168.100.100
 - ArgonTheme | OpenClash | SSRP+ | AccessControl | AliDNS | MsdLite | WOL | FrpS/C | UPnP | Vlmcsd | Qos | Eqos
-
 #
 ### 在本地机器上配置.config:
 - 安装编译依赖
