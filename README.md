@@ -5,7 +5,7 @@
 - ❤️  [Lean](https://github.com/coolsnowwolf/lede) |  [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)  |  [honwen](https://github.com/honwen/luci-app-aliddns) |  [ximiTech ](https://github.com/ximiTech)  |  [jerrykuku](https://github.com/jerrykuku)
 #
 ### 在本地机器上配置.config:
-1. 安装编译依赖
+- 安装编译依赖
 
    ```bash
    sudo apt update -y
@@ -19,7 +19,7 @@
    uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
    ```
 
-2. 下载源代码，更新 feeds 并选择配置
+- 下载源代码，更新 feeds 并选择配置
 
    ```bash
    git clone https://github.com/coolsnowwolf/lede openwrt
@@ -56,4 +56,4 @@
    make menuconfig
    ```
 
-3. 复制并上传.config
+- 复制并上传.config
