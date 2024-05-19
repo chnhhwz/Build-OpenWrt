@@ -5,8 +5,9 @@
 - ❤️  [Lean](https://github.com/coolsnowwolf/lede) |  [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)  |  [honwen](https://github.com/honwen/luci-app-aliddns) |  [ximiTech ](https://github.com/ximiTech)  |  [jerrykuku](https://github.com/jerrykuku)
 #
 ### 在本地机器上配置.config:
-- 安装依赖
-  ```bash
+1. 安装编译依赖
+
+   ```bash
    sudo apt update -y
    sudo apt full-upgrade -y
    sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
@@ -17,11 +18,14 @@
    python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion swig texinfo \
    uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
    ```
-- 下载源代码，更新 feeds 并选择配置
- ```bash
+
+2. 下载源代码，更新 feeds 并选择配置
+
+   ```bash
    git clone https://github.com/coolsnowwolf/lede
    cd lede
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    make menuconfig
    ```
+
