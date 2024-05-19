@@ -41,7 +41,7 @@
    mkdir -p package/feeds
    git clone https://github.com/honwen/luci-app-aliddns.git package/feeds/luci-app-aliddns
 
-   # Feedsd Instal
+   # Feedsd软件包
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    
@@ -54,7 +54,8 @@
    git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
    rm -rf feeds/luci/applications/luci-app-argon-config
    git clone https://github.com/jerrykuku/luci-app-argon-config.git feeds/luci/applications/luci-app-argon-config
-   
+
+   # 配置.config
    make menuconfig
    ```
 
