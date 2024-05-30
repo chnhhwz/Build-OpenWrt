@@ -59,7 +59,10 @@
    make menuconfig
    ```
 
-- ~/openwrt/.config
+- config目录
+  ```bash
+  ~/openwrt/.config
+  ```
 
 #
 ### 感谢 ❤️  [Lean](https://github.com/coolsnowwolf/lede) |  [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)  |  [honwen](https://github.com/honwen/luci-app-aliddns) |  [ximiTech ](https://github.com/ximiTech)  |  [jerrykuku](https://github.com/jerrykuku)
