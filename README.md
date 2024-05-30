@@ -26,9 +26,6 @@
    git clone https://github.com/coolsnowwolf/lede openwrt
    cd openwrt
    
-   # SSR Plus+
-   sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-   
    # OpenClash
    echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
    
