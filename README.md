@@ -59,7 +59,7 @@
    make menuconfig
    ```
 
-- config目录
+- Config文件位置
   ```bash
   ~/openwrt/.config
   ```
