@@ -1,7 +1,7 @@
 # Actions-OpenWrt
 
 - root  @  192.168.100.100
-- ArgonTheme | OpenClash | SSRP+ | AccessControl | AliDNS | MsdLite | WOL | FrpS/C | UPnP | Vlmcsd | Qos | Eqos
+- ArgonTheme | OpenClash | AccessControl | Ali-DDNS | Msd_Lite | WOL | FrpS/C | UPnP | Vlmcsd | Qos | Eqos
 #
 ### 在本地配置.config文件:
 - Debian 11 或 Ubuntu LTS
