@@ -36,5 +36,5 @@
 
 #
 # 感谢 ❤️  
-### [Lean](https://github.com/coolsnowwolf/lede)
-### [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)  
+### [Lean的源码仓库](https://github.com/coolsnowwolf/lede)
+### [P3TERX云编译](https://github.com/P3TERX/Actions-OpenWrt)  
