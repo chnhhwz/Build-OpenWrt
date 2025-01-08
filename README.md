@@ -34,6 +34,12 @@
   ~/openwrt/.config
   ```
 
+- 在本地完成编译
+  ```bash
+  make -j8 download V=s
+  make V=s -j$(nproc)
+  ```
+
 #
 # 感谢 ❤️  
 ### [Lean源码仓库](https://github.com/coolsnowwolf/lede)
