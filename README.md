@@ -1,7 +1,7 @@
 # Actions-OpenWrt
 
 - root  @  192.168.100.100
-- ArgonTheme | OpenClash | AccessControl | Aliddns | Msd_Lite | WOL | FrpS/C | UPnP | Vlmcsd | Qos | Eqos
+- PassWall | AccessControl | DDNS-GO | Msd_Lite | WOL | FrpS/C | UPnP | KMS | Qos 
 #
 ### 在本地配置.config文件:
 - Debian 11 或 Ubuntu LTS
@@ -9,14 +9,14 @@
 
    ```bash
    sudo apt update -y
-   sudo apt full-upgrade -y
-   sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
-   bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \
-   git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libfuse-dev libglib2.0-dev libgmp3-dev \
-   libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libpython3-dev libreadline-dev \
-   libssl-dev libtool lrzsz mkisofs msmtp ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 \
-   python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion swig texinfo \
-   uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
+sudo apt full-upgrade -y
+sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
+bzip2 ccache clang cmake cpio curl device-tree-compiler flex gawk gcc-multilib g++-multilib gettext \
+genisoimage git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libfuse-dev libglib2.0-dev \
+libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libpython3-dev \
+libreadline-dev libssl-dev libtool llvm lrzsz msmtp ninja-build p7zip p7zip-full patch pkgconf \
+python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion \
+swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
    ```
 
 - 下载源代码，更新 feeds 并选择配置
@@ -25,32 +25,11 @@
    # 源码
    git clone https://github.com/coolsnowwolf/lede openwrt
    cd openwrt
-   
-   # OpenClash
-   echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-   
-   # luci-app-msd_lite
-   cd package/lean
-   git clone https://github.com/ximiTech/luci-app-msd_lite.git
-   
-   # luci-app-aliddns
-   cd ~/openwrt
-   mkdir -p package/feeds
-   git clone https://github.com/honwen/luci-app-aliddns.git package/feeds/luci-app-aliddns
 
    # Feedsd软件包
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    
-   # msd_lite
-   rm -rf feeds/packages/net/msd_lite
-   git clone https://github.com/ximiTech/msd_lite.git feeds/packages/net/msd_lite
-   
-   # Argon-Theme
-   rm -rf feeds/luci/themes/luci-theme-argon
-   git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
-   rm -rf feeds/luci/applications/luci-app-argon-config
-   git clone https://github.com/jerrykuku/luci-app-argon-config.git feeds/luci/applications/luci-app-argon-config
 
    # 配置.config
    make menuconfig
