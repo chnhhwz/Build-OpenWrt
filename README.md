@@ -7,7 +7,7 @@
 - Debian 11 或 Ubuntu LTS
 - 编译依赖
 
-   ```bash
+   ```shell
    sudo apt update -y
 sudo apt full-upgrade -y
 sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
@@ -21,7 +21,7 @@ swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
 
 - 下载源代码，更新 feeds 并选择配置
 
-   ```bash
+   ```shell
    # 源码
    git clone https://github.com/coolsnowwolf/lede openwrt
    cd openwrt
