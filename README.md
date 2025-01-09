@@ -29,12 +29,7 @@
    make menuconfig
    ```
 
-- Config文件位置
-  ```bash
-  ~/openwrt/.config
-  ```
-
-- 在本地完成编译
+- 下载dl库，编译固件
   ```bash
   make -j8 download V=s
   make V=s -j$(nproc)
