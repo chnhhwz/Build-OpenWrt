@@ -3,7 +3,7 @@
 - root  @  192.168.100.100
 - PassWall | AccessControl | DDNS-GO | Msd_Lite | WOL | FrpS/C | UPnP | KMS | Qos 
 #
-### 在本地配置.config文件:
+
 - Debian 11 或 Ubuntu LTS
 - 编译依赖
 
