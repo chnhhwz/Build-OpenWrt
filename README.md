@@ -5,7 +5,7 @@
 #
 
 - Debian 11 或 Ubuntu LTS
-- 编译依赖
+- 安装编译依赖
 
    ```bash
    sudo apt update -y
