@@ -1,7 +1,4 @@
 # Actions-OpenWrt
-
-- root  @  192.168.100.100
-- PassWall | AccessControl | DDNS-GO | Msd_Lite | WOL | FrpS/C | UPnP | KMS | Qos 
 #
 
 - Debian 11 或 Ubuntu LTS
