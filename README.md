@@ -1,6 +1,5 @@
 # Actions-OpenWrt
 #
-
 - Debian 11 或 Ubuntu LTS
 - 安装编译依赖
 
