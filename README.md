@@ -15,7 +15,7 @@
    swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
    ```
 
-- 下载源代码，更新 feeds 并选择配置
+- 下载源代码，更新 feeds
 
    ```bash
    git clone https://github.com/coolsnowwolf/lede openwrt
@@ -25,6 +25,22 @@
    make menuconfig
    ```
 
+- 更改默认IP、空密码、固件信息
+  ```bash
+  sed -i 's/192.168.1.1/192.168.100.10/g' package/base-files/luci2/bin/config_generate
+  sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings
+  sed -i "s/LEDE /z-turn /g" package/lean/default-settings/files/zzz-default-settings
+  ```
+
+- 选择配置
+  ```bash
+  make menuconfig
+  ```
+  ```
+  Extra packages中  勾选ipv6helper
+  Network----Firewall---ip6tables 勾选全部
+  ```
+  
 - 下载dl库，编译固件
   ```bash
   make -j8 download V=s
