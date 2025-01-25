@@ -46,8 +46,6 @@
   make -j8 download V=s
   make V=s -j$(nproc)
   ```
-- 默认luci
-   PassWall | OpenClash | AccessControl | ddns-Go | Msd_Lite | OmcProxy | WOL | FrpS/C | UPnP | KMS | Qos
-
+  
 #
 ### 感谢 ❤️  [Lean源码](https://github.com/coolsnowwolf/lede) | [P3TERX云编译](https://github.com/P3TERX/Actions-OpenWrt)  
