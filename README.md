@@ -28,7 +28,7 @@
   ```bash
   sed -i 's/192.168.1.1/192.168.100.10/g' package/base-files/luci2/bin/config_generate
   sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings
-  sed -i "s/LEDE /z-turn /g" package/lean/default-settings/files/zzz-default-settings
+  sed -i "s/LEDE /Z-turn /g" package/lean/default-settings/files/zzz-default-settings
   ```
 
 - 选择配置
