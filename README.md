@@ -22,7 +22,6 @@
    cd openwrt
    ./scripts/feeds update -a
    ./scripts/feeds install -a
-   make menuconfig
    ```
 
 - 更改默认IP、空密码、固件信息
