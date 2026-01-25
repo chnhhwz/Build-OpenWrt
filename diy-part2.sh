@@ -11,13 +11,7 @@
 #
 
 # 修改默认IP 
-sed -i 's/192.168.1.1/192.168.100.10/g' package/base-files/luci2/bin/config_generate
+sed -i 's/192.168.1.1/192.168.101.101/g' package/base-files/files/bin/config_generate
 
 # 修改版本信息
-# sed -i "s/LEDE /Z-turn /g" package/lean/default-settings/files/zzz-default-settings
-
-# 修改密码为空
-sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings
-
-# 更改源码版本
-# sed -i "s/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=6.1/g" target/linux/x86/Makefile
+sed -i 's/LEDE/z-turn/g' openwrt/package/base-files/files/bin/config_generate
