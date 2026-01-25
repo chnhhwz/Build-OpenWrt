@@ -3,7 +3,7 @@
 - Debian 11 或 Ubuntu LTS
 - 安装编译依赖
 
-   ```bash
+```bash
 sudo apt update -y
 sudo apt full-upgrade -y
 sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
@@ -13,7 +13,7 @@ libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev 
 libreadline-dev libssl-dev libtool llvm lrzsz libnsl-dev ninja-build p7zip p7zip-full patch pkgconf \
 python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion \
 swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
-   ```
+```
 
 - 下载源代码，更新 feeds
 
