@@ -34,7 +34,7 @@ cd openwrt
 ./scripts/feeds install -a
 ```
 
-- 更改默认IP、固件信息
+- 更改默认IP、hostname
 ```bash
 sed -i 's/192.168.1.1/192.168.100.10/g' package/base-files/files/bin/config_generate
 sed -i "s/LEDE/Z-turn/g" package/base-files/files/bin/config_generate
