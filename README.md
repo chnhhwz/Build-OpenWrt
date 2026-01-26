@@ -14,17 +14,7 @@ libreadline-dev libssl-dev libtool llvm lrzsz libnsl-dev ninja-build p7zip p7zip
 python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion \
 swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
 ```
-- debian13 编译lede基本依赖
-```
-sudo apt update
-sudo apt install -y build-essential asciidoc binutils bzip2 gawk gettext \
-git libncurses5-dev libz-dev patch python3 python3-setuptools \
-unzip zlib1g-dev lib32gcc-s1 libc6-dev-i386 subversion flex \
-uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev \
-texinfo libglib2.0-dev xmlto qemu-utils upx-ucl libelf-dev autoconf \
-automake libtool autopoint device-tree-compiler g++-multilib \
-antlr3 gperf wget curl swig rsync
-```
+
 - 下载源代码，更新 feeds
 
 ```bash
